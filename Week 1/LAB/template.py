@@ -11,28 +11,11 @@ Run it:   python template.py
 Work through the numbered sections in order. Each one tells you what it must do.
 Delete these instructions as you replace them with your code.
 """
+"""Here are a few changes for testing"""
 
-# ==================================================================== INPUT
-# 1. Ask the user for your three values.
-#
-#    - the first is TEXT      (a name, a hostname, an IP)  -> no conversion needed
-#    - the second is a NUMBER (use float(), not int())
-#    - the third  is a NUMBER (use float(), not int())
-#
-#    Remember: input() always gives back text.
-
-label = ""      # : replace with an input() call
+label =  input("Enter your name") # : replace with an input() call
 first = 0.0     # : replace with an input() call, converted
 second = 0.0    # : replace with an input() call, converted
-
-
-# ================================================================== PROCESS
-# 2. Work out what you were NOT given.       [Typical and above]
-#
-#    - difference : how far the first is from the second
-#    - percent    : the first as a percentage of the second
-#
-#    Do not type the answers. Calculate them.
 
 difference = 0.0   # 
 percent = 0.0      # 
